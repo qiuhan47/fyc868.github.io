@@ -1,0 +1,82 @@
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="description" content="这是一个基本的HTML模板">  
+    <title>关于</title>  
+    <!-- 引入CSS样式，可以自定义或者引入外部CSS文件 -->  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0;  
+            display: flex;  
+            flex-direction: column;  
+            min-height: 100vh;  
+        }  
+        header, footer {  
+            background-color: #333;  
+            color: white;  
+            text-align: center;  
+            padding: 1em 0;  
+        }  
+        nav {  
+            display: flex;  
+            justify-content: center;  
+            background-color: #444;  
+        }  
+        nav a {  
+            color: white;  
+            padding: 14px 20px;  
+            text-decoration: none;  
+            text-align: center;  
+        }  
+        nav a:hover {  
+            background-color: #555;  
+        }  
+        main {  
+            flex: 1;  
+            padding: 20px;  
+        }  
+        .sidebar {  
+            background-color: #f4f4f4;  
+            padding: 20px;  
+            flex: 0 0 250px; /* 可选的侧边栏宽度 */  
+        }  
+        .content {  
+            flex: 1;  
+            margin-left: 20px; /* 侧边栏存在时的间距 */  
+        }  
+    </style>  
+</head>  
+<body>  
+    <!-- 头部 -->  
+    <header>  
+        <h1>寝室主页</h1>  
+    </header>  
+
+     <!-- 导航栏 -->  
+    <nav>  
+        <li><a href="../index.html">主页</a></li>  
+        <li><a href="about.html">关于我们</a></li>  
+        <li><a href="services.html">服务</a></li>  
+        <li><a href="gallery.html">图库</a></li>  
+        <li><a href="contact.html">联系我们</a></li> 
+    </nav>  
+
+    <!-- 主要内容区域 -->  
+    <main>  
+  
+        <!-- 内容区域 -->  
+        <div class="content">  
+            <h2>寝室人员</h2>  
+            <p>费郁诚 曾景麟 韩轩 宋晨鑫</p>  
+        </div>  
+    </main>  
+  
+    <!-- 页脚 -->  
+    <footer>  
+        <p>&copy; 2024 fyc868保留所有权利。</p>  
+    </footer>  
+</body>  
+</html>
